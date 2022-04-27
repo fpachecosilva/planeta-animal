@@ -289,7 +289,7 @@
 
 	<?php include 'assets/footer.php'; ?>
 
-	<a href="https://api.whatsapp.com/send?phone=5511&amp;text=Oi,%20vim%20através%20do%20website%20Planeta%20Animal" target="_blank" id="Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+	<a href="https://api.whatsapp.com/send?phone=556195670325&text=Oi,%20vim%20através%20do%20website%20Planeta%20Animal" target="_blank" id="Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
 
 </body>
 
