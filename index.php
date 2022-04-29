@@ -26,7 +26,7 @@
 	<header class="DesktopItem">
 		<article>
 			<div class="box-links">
-				<a href="#menu-abas">Megaexperiência</a>
+				<a href="#menu-abas">Experiência</a>
 				<a href="#icones">Informações</a>
 			</div>
 			<div class="box-social">
@@ -43,7 +43,7 @@
 		</article>
 
 		<h3 id="ancora-abas">
-			A MEGAEXPERIÊNCIA GASTRONÔMICA CONSCIENTIZA SOBRE A IMPORTÂNCIA DA PRESERVAÇÃO DA NATUREZA EM AVENTURA INESQUECÍVEL PARA TODA A FAMÍLIA
+			A EXPERIÊNCIA GASTRONÔMICA CONSCIENTIZA SOBRE A IMPORTÂNCIA DA PRESERVAÇÃO DA NATUREZA EM AVENTURA INESQUECÍVEL PARA TODA A FAMÍLIA
 		</h3>
 		<a class="Btn-primary" href="#ingressos">Comprar</a>
 	</section>
@@ -94,99 +94,55 @@
 			<h1>HORÁRIOS E VALORES - RJ</h1>
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 
-			<div class="experiencias">
+			<!-- <div class="experiencias">
 				<p>EXPERIÊNCIAS</p>
-			</div>
-				
-			<table class='table-encontro'>
+			</div> -->
+			
+			<table class=''>
 				<tbody>
-					<tr class='linha1'>
-						<th colspan='2'>ENCONTRO COM PERSONAGENS</th>
+					<tr>
+						<td class='first' rowspan ='2'></td>
+						<td class='first'>QUI - 18h, 20h</td>
+						<td class='first'>SAB - 13h, 15h, 17h, 19h, 21h</td>
+					</tr>
+					<tr>						
+						<td class='first'>SEX - 20h</td>
+						<td class='first'>DOM - 13h, 15h, 17h, 19h</td>
 					</tr>
 					<tr>
-						<td colspan='2' class='bgnormal'>Nessa experiência você terá um encontro com alguns personagens para interação e foto</td>
-					</tr>
-					<tr>
-						<td class='esq'>Dias / Sessões</td>
-						<td class='dir'>Interação com Personagens + Consumação</td>
-					</tr>
-					<tr class='linha1'>
-						<td class='esq'>QUI / SEX (16h)</td>
-						<td class='dir'>Promo: R$ 35,00 (Consumação) - sem cobrança de Couvert Art</td>
-					</tr>
-					<tr class='linha2'>
-						<td class='esq'>SEX (16h)</td>
-						<td class='dir'>Promo: R$ 40,00 (Consumação) - sem cobrança de Couvert Art</td>
-					</tr>
-					<tr class='linha3'>
-						<td class='esq'>SAB / DOM (10h30) e DOM (21h)</td>
-						<td class='dir'>Promo: R$ 55,00 (R$ 45,00 Consumação) + (R$ 10,00 Couvert Art)</td>
-					</tr>					
-				</tbody>
-			</table>
-
-			<table class="table-megashow">
-				<tbody>
-					<tr class="linha1">
-						<th colspan='4'>MEGASHOW</th>
-					</tr>
-
-					<tr>
-						<td colspan='4'>Megaexperiência com muita música, dança e teatro, além de efeitos especiais visuais e olfativos.</td>
-					</tr>
-
-					<tr>
-						<td class='esq' colspan='2'>Dias / Sessões</td>
-						<td class='meio'>Couvert Artístico</td>
-						<td class='dir'>Couvert Art + Consumação</td>
-					</tr>
-
-					<tr class='linha1'>
-						<td rowspan='2' colspan='2'>QUI (18h)</td>
-						<td rowspan='2'>R$ 35,00</td>
+						<td class='first'>Couvert Artístico</td>
+						<td>R$ 50,00</td>
 						<td>R$ 60,00</td>
 					</tr>
-
-					<tr class='linha1'>
-						<td>R$ 45 Consum + R$ 15 Couvert Art</td>
-					</tr>
-
-					<tr class='linha2'>
-						<td rowspan='2' colspan='2'>QUI / SEX (20h)</td>
-						<td rowspan='2'>R$ 50,00</td>
-						<td>R$ 80,00</td>
-					</tr>
-
-					<tr class='linha2'>
-						<td>R$ 45 Consum + R$ 35 Couvert Art</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td rowspan='4'>SAB / DOM</td>												
-						<td>13h00</td>
-						<td rowspan='5'>R$ 60,00</td>
-						<td rowspan='2'>R$ 90,00</td>
-					</tr>
-					
-					<tr class='linha3'>
-						<td>15h00</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td>17h00</td>
-						<td rowspan='3'>R$ 45 Consum + R$ 45 Couvert Art</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td>19h00</td>
-					</tr>
-					
-					<tr class='linha3'>
-						<td>SAB</td>										
-						<td>21h00</td>
+					<tr>
+						<td class='first'>Promocional Couvert Art + Consumação</td>
+						<td>R$ 80,00 (R$ 35 Couvert Art + R$ 45 consumação)</td>
+						<td>R$ 90,00 (R$ 45 Couvert Art + R$ 45 consumação)</td>
 					</tr>					
 				</tbody>
 			</table>
+
+			<table class="">
+				<tbody>
+					<tr>
+						<td class='first' rowspan ='2'></td>
+						<td class='first'>QUI - 16h</td>
+						<td class='first' rowspan='2'>SEX - 18h</td>
+						<td class='first'>SAB - 10h30</td>
+					</tr>
+					<tr>						
+						<td class='first'>SEX - 16h</td>
+						<td class='first'>DOM - 10h30 e 21h</td>
+					</tr>
+					<tr>
+						<td class='first'>Preços Especiais</td>
+						<td>R$ 35,00 Consumação (sem cobrança de Couvert Art)</td>
+						<td>R$ 40,00 Consumação (sem cobrança de Couvert Art)</td>
+						<td>R$ 55,00 (R$ 10 Couvert Art + R$ 45,00 consumação)</td>
+					</tr>										
+				</tbody>
+			</table>
+		</div>
 
 
 			<!-- bkp

@@ -10,7 +10,7 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 		--principal: #FFF;
 		--secundaria: #fb9414;
 		--terciaria: #111923;
-		--destaque-tabela: #1e3154;
+		--destaque-tabela: #1c1c1b;
 
 		--margin: 30px;
 		--tempo: 400ms;
@@ -150,9 +150,9 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	#valores { max-width: 1180px; margin: auto; margin-top: 75px }
 	#valores h1 { text-align: center; margin: auto; font-size: 38px; line-height: 24px; color: var(--secundaria); margin-bottom: 20px }
 	#valores h2 { text-align: center; width: 100%; margin: auto; font-size: 30px; line-height: normal; color: var(--principal); font-weight: normal }
-	/* #valores table { width: 85%; color: #fff; margin: auto; margin-top: 35px; margin-bottom: 62px }
+	#valores table { width: 85%; color: #fff; margin: auto; margin-top: 35px; margin-bottom: 62px }
 	#valores table td { padding: 15px; display: table-cell; text-align: center; background-color: rgba(216, 216, 216, 0.2); vertical-align: middle; font-size: 22px; font-weight: normal; border: 2px solid #000; line-height: normal; }
-	#valores table td.first { background-color: var(--destaque-tabela); color: #fff; font-weight: bold }  */
+	#valores table td.first { background-color: var(--destaque-tabela); color: #fb9414; font-weight: bold } 
 	#valores .local { display: none; transition: all 0.5s; }
 	#valores .local.active { display: block; }
 
@@ -182,11 +182,11 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 		font-weight: bold;
 	}
 	
-	#valores table { width: 85%; text-align: center; margin: auto; background-color: #fff; color: #000; }
+	#valores table { width: 85%; text-align: center; margin: auto; background-color: #000; color: #FFF; margin-top: 40px; }
 	#valores table th { padding: 20px; font-size: 20px; }
 	#valores table td { border: 1px solid #000; padding: 10px; vertical-align: middle; }
 	
-	#valores .table-encontro .esq { width: 30%; }
+	/* #valores .table-encontro .esq { width: 30%; }
 	#valores .table-encontro .dir { width: 70%; }	
 	#valores .table-encontro .linha1 { background-color: #ddebf7; }
 	#valores .table-encontro .linha2 { background-color: #bdd7ee; }
@@ -198,7 +198,7 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	#valores .table-megashow .dir { width: 40%; }
 	#valores .table-megashow .linha1 { background-color: #e2efda; }
 	#valores .table-megashow .linha2 { background-color: #c6e0b4; }
-	#valores .table-megashow .linha3 { background-color: #a9d08e; }
+	#valores .table-megashow .linha3 { background-color: #a9d08e; } */
 	
 /* :Valores */
 
@@ -383,7 +383,13 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	#valores h1 { font-size: 22px; line-height: 24px; margin: initial; }
 	#valores h2 { font-size: 18px; line-height: 24px; margin: auto; margin-top: 5px;  }
 
-	#valores table { width: calc(100% + 40px); margin-left: -20px; }	
+	#valores table { width: calc(100% + 40px); margin-left: -20px; }
+	#valores table td {
+		width: 25%;
+		height: 28px;
+		font-size: 12px;
+		padding: 5px;
+	}
 
 	.menu-locais-links:after { width: 70%; }
 /* :Valores */
