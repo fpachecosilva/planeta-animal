@@ -1,27 +1,20 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
-
 	<?php
 	include 'assets/config.php';
-
 	$tituloPagina = '' . $empresa;
 	$descricaoCompartilhamento = '';
-
 	$urlPagina = $url;
 	$imagemCompartilhamento = $images . 'compartilhamento.jpg';
 	$sessao = 'home';
 	?>
 	<title><? echo $tituloPagina ?></title>
 	<?php include 'assets/head.php'; ?>
-
 	<meta property="og:title" content="<? echo $tituloPagina ?>" />
 	<meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
 	<meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
-
 </head>
-
 <body class="Home">
 	<header class="DesktopItem">
 		<article>
@@ -59,15 +52,14 @@
 			Protocolo Covid<br>
 			Para acesso ao local do evento é obrigatório que adultos apresentem comprovante de vacinação contra COVID-19 com, no mínimo, a primeira dose - físico ou digital (disponível nos aplicativos conecte SUS). Crianças não precisam apresentar.
 		</p>
-
 		<video id='videolol' src="<? echo $images ?>PLANETA 16x9 RJ 30.mov" preload="auto" type="video/mp4" controls poster="<? echo $images ?>moment.jpg"></video>
 	</section>
 
 	<section id="icones">
 		<h1 class="">PLANETA ANIMAL EXPERIENCE</h1>
-
 		<div class="menu-locais-links">
-			<a class="active" local="rj">RIO DE JANEIRO</a>			
+			<a class="active" local="rj">RIO DE JANEIRO</a>
+			<a class="" local="sp">SÃO PAULO</a>
 		</div>
 
 		<div class="local rj active">
@@ -86,18 +78,29 @@
 				</div>
 			</div>
 		</div>
-	</section>
 
+		<div class="local sp">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING IBIRAPUERA</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section id="valores">
 		<div class="local rj active">
 			<h1>HORÁRIOS E VALORES - RJ</h1>
-			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-
-			<!-- <div class="experiencias">
-				<p>EXPERIÊNCIAS</p>
-			</div> -->
-			
+			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
 			<table class=''>
 				<tbody>
 					<tr>
@@ -121,7 +124,6 @@
 					</tr>					
 				</tbody>
 			</table>
-
 			<table class="">
 				<tbody>
 					<tr>
@@ -139,79 +141,59 @@
 						<td>R$ 35,00 Consumação (sem cobrança de Couvert Art)</td>
 						<td>R$ 40,00 Consumação (sem cobrança de Couvert Art)</td>
 						<td>R$ 55,00 (R$ 10 Couvert Art + R$ 45,00 consumação)</td>
-					</tr>										
+					</tr>
 				</tbody>
 			</table>
 		</div>
 
-
-			<!-- bkp
-			<table class="table-megashow">
+		<div class="local sp">
+			<h1>HORÁRIOS E VALORES - SP</h1>
+			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+			<table class=''>
 				<tbody>
-					<tr class="linha1">
-						<th colspan='4'>MEGASHOW</th>
-					</tr>
-
 					<tr>
-						<td colspan='4'>Megaexperiência com muita música, dança e teatro, além de efeitos especiais visuais e olfativos.</td>
+						<td class='first' rowspan ='2'></td>
+						<td class='first'>QUI - 18h, 20h</td>
+						<td class='first'>SAB - 13h, 15h, 17h, 19h, 21h</td>
 					</tr>
-
+					<tr>						
+						<td class='first'>SEX - 20h</td>
+						<td class='first'>DOM - 13h, 15h, 17h, 19h</td>
+					</tr>
 					<tr>
-						<td class='esq'>Dias / Sessões</td>
-						<td class='meio'>Couvert Artístico</td>
-						<td class='dir'>Couvert Art + Consumação</td>
-					</tr>
-
-					<tr class='linha1'>
-						<td rowspan='2'>QUI (18h)</td>
-						<td rowspan='2'>R$ 35,00</td>
+						<td class='first'>Couvert Artístico</td>
+						<td>R$ 50,00</td>
 						<td>R$ 60,00</td>
 					</tr>
-
-					<tr class='linha1'>
-						<td>R$ 45 Consum + R$ 15 Couvert Art</td>
-					</tr>
-
-					<tr class='linha2'>
-						<td rowspan='2'>QUI / SEX (20h)</td>
-						<td rowspan='2'>R$ 50,00</td>
-						<td>R$ 80,00</td>
-					</tr>
-
-					<tr class='linha2'>
-						<td>R$ 45 Consum + R$ 35 Couvert Art</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td rowspan='4'>SAB / DOM</td>												
-						<td>13h00</td>
-						<td rowspan='5'>R$ 60,00</td>
-						<td rowspan='2'>R$ 90,00</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td>15h00</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td>17h00</td>
-						<td rowspan='3'>R$ 45 Consum + R$ 45 Couvert Art</td>
-					</tr>
-
-					<tr class='linha3'>
-						<td>19h00</td>
-					</tr>
-					
-					<tr class='linha3'>
-						<td>SAB</td>										
-						<td>21h00</td>
-					</tr>
-					
+					<tr>
+						<td class='first'>Promocional Couvert Art + Consumação</td>
+						<td>R$ 80,00 (R$ 35 Couvert Art + R$ 45 consumação)</td>
+						<td>R$ 90,00 (R$ 45 Couvert Art + R$ 45 consumação)</td>
+					</tr>					
 				</tbody>
-			</table> -->
-
-			
+			</table>
+			<table class="">
+				<tbody>
+					<tr>
+						<td class='first' rowspan ='2'></td>
+						<td class='first'>QUI - 16h</td>
+						<td class='first' rowspan='2'>SEX - 18h</td>
+						<td class='first'>SAB - 10h30</td>
+					</tr>
+					<tr>						
+						<td class='first'>SEX - 16h</td>
+						<td class='first'>DOM - 10h30 e 21h</td>
+					</tr>
+					<tr>
+						<td class='first'>Preços Especiais</td>
+						<td>R$ 35,00 Consumação (sem cobrança de Couvert Art)</td>
+						<td>R$ 40,00 Consumação (sem cobrança de Couvert Art)</td>
+						<td>R$ 55,00 (R$ 10 Couvert Art + R$ 45,00 consumação)</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
+
 	</section>
 
 	<section id="ingressos">
@@ -227,26 +209,22 @@
 					<h2>Rio de Janeiro</h2>
 				</a>
 			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
+					<h2>São Paulo</h2>
+				</a>
+			</div>
 		</div>
-
-		<!-- <div class="ingressostxt">
-			<p>
-
-			</p>
-		</div> -->
 
 		<div class="box-social">
 			<?php include 'assets/social.php'; ?>
 		</div>
 
 		<img class="logofooter" src="<? echo $images ?>logo.png">
-
 	</section>
-
 	<?php include 'assets/footer.php'; ?>
-
 	<a href="https://api.whatsapp.com/send?phone=556195670325&text=Oi,%20vim%20através%20do%20website%20Planeta%20Animal" target="_blank" id="Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-
 </body>
 
 </html>

@@ -21,6 +21,7 @@
 		$youtube = '';
 
 	// Comprar Ingressos		
-		$siteVendas 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=311&filter=day&websaleschannelkey=internetchaim&orig=parj';		
+		$siteVendas 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=311&filter=day&websaleschannelkey=internetchaim&orig=parj';
+		$siteVendasSP 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=382&filter=day&websaleschannelkey=internetchaim&orig=pasp';
 		
 ?>
