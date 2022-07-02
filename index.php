@@ -52,7 +52,7 @@
 			Protocolo Covid<br>
 			Para acesso ao local do evento é obrigatório que adultos apresentem comprovante de vacinação contra COVID-19 com, no mínimo, a primeira dose - físico ou digital (disponível nos aplicativos conecte SUS). Crianças não precisam apresentar.
 		</p>
-		<video id='videolol' src="<? echo $images ?>PLANETA 16x9 RJ 30.mov" preload="auto" type="video/mp4" controls poster="<? echo $images ?>moment.jpg"></video>
+		<video id='videolol' src="<? echo $images ?>PLANETA 16x9 RJ 30.mp4" preload="auto" type="video/mp4" controls></video>
 	</section>
 
 	<section id="icones">
