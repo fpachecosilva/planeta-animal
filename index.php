@@ -16,6 +16,12 @@
 	<meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
 </head>
 <body class="Home">
+	<!-- GTAG RAI -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNGG5VD"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<header class="DesktopItem">
 		<article>
 			<div class="box-links">
@@ -49,8 +55,7 @@
 			<br><br>
 			O cardápio é composto de uma seleção variada e deliciosa de receitas com menu completo. Entre entradas, pratos principais e sobremesas, o público poderá escolher opções que vão desde saladas e costela ao barbecue com batatas salteadas, até hambúrgueres tradicionais e vegetariano, massas, risotos, nhoques e parmeggianas de frango e vermelha. As sobremesas não ficam atrás: são diversas opções com destaque para o bolo red velvet e o tradicional pudim.
 			<br><br>
-			Protocolo Covid<br>
-			Para acesso ao local do evento é obrigatório que adultos apresentem comprovante de vacinação contra COVID-19 com, no mínimo, a primeira dose - físico ou digital (disponível nos aplicativos conecte SUS). Crianças não precisam apresentar.
+			Crianças são pagantes a partir dos 24 meses.
 		</p>
 		<video id='videolol' src="<? echo $images ?>PLANETA 16x9 RJ 30.mp4" preload="auto" type="video/mp4" controls></video>
 	</section>
