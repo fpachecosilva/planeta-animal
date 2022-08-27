@@ -151,7 +151,7 @@
 			</table>
 		</div>
 
-		<div class="local sp">
+		<!-- <div class="local sp">
 			<h1>HORÁRIOS E VALORES - SP</h1>
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
 			<table class=''>
@@ -197,8 +197,65 @@
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div> -->
 
+		<div class="local sp">
+			<h1>HORÁRIOS E VALORES - SP</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+
+			<table class="tabela-b linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>					
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Fast Pass<br>(Acesso Prioritário)</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-b linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Fast Pass<br>(Acesso Prioritário)</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-b linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Fast Pass<br>(Acesso Prioritário)</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>
+			</table>
+		</div>
 	</section>
 
 	<section id="ingressos">
