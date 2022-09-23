@@ -63,28 +63,10 @@
 	<section id="icones">
 		<h1 class="">PLANETA ANIMAL EXPERIENCE</h1>
 		<div class="menu-locais-links">
-			<a class="active" local="rj">RIO DE JANEIRO</a>
-			<a class="" local="sp">SÃO PAULO</a>
+			<a class="active" local="sp">SÃO PAULO</a>
 		</div>
 
-		<div class="local rj active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>VIA PARQUE SHOPPING</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local sp">
+		<div class="local sp active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
@@ -103,103 +85,7 @@
 	</section>
 
 	<section id="valores">
-		<div class="local rj active">
-			<h1>HORÁRIOS E VALORES - RJ</h1>
-			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
-			<table class=''>
-				<tbody>
-					<tr>
-						<td class='first' rowspan ='2'></td>
-						<td class='first'>QUI - 18h, 20h</td>
-						<td class='first'>SAB - 13h, 15h, 17h, 19h, 21h</td>
-					</tr>
-					<tr>						
-						<td class='first'>SEX - 20h</td>
-						<td class='first'>DOM - 13h, 15h, 17h, 19h</td>
-					</tr>
-					<tr>
-						<td class='first'>Couvert Artístico</td>
-						<td>R$ 50,00</td>
-						<td>R$ 60,00</td>
-					</tr>
-					<tr>
-						<td class='first'>Promocional Couvert Art + Consumação</td>
-						<td>R$ 80,00 (R$ 35 Couvert Art + R$ 45 consumação)</td>
-						<td>R$ 90,00 (R$ 45 Couvert Art + R$ 45 consumação)</td>
-					</tr>					
-				</tbody>
-			</table>
-			<table class="">
-				<tbody>
-					<tr>
-						<td class='first' rowspan ='2'></td>
-						<td class='first'>QUI - 16h</td>
-						<td class='first' rowspan='2'>SEX - 18h</td>
-						<td class='first'>SAB - 10h30</td>
-					</tr>
-					<tr>						
-						<td class='first'>SEX - 16h</td>
-						<td class='first'>DOM - 10h30 e 21h</td>
-					</tr>
-					<tr>
-						<td class='first'>Preços Especiais</td>
-						<td>R$ 35,00 Consumação (sem cobrança de Couvert Art)</td>
-						<td>R$ 40,00 Consumação (sem cobrança de Couvert Art)</td>
-						<td>R$ 55,00 (R$ 10 Couvert Art + R$ 45,00 consumação)</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-
-		<!-- <div class="local sp">
-			<h1>HORÁRIOS E VALORES - SP</h1>
-			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
-			<table class=''>
-				<tbody>
-					<tr>
-						<td class='first' rowspan ='2'></td>
-						<td class='first'>QUI - 18h, 20h</td>
-						<td class='first'>SAB - 13h, 15h, 17h, 19h, 21h</td>
-					</tr>
-					<tr>						
-						<td class='first'>SEX - 20h</td>
-						<td class='first'>DOM - 13h, 15h, 17h, 19h</td>
-					</tr>
-					<tr>
-						<td class='first'>Couvert Artístico</td>
-						<td>R$ 50,00</td>
-						<td>R$ 60,00</td>
-					</tr>
-					<tr>
-						<td class='first'>Promocional Couvert Art + Consumação</td>
-						<td>R$ 80,00 (R$ 35 Couvert Art + R$ 45 consumação)</td>
-						<td>R$ 90,00 (R$ 45 Couvert Art + R$ 45 consumação)</td>
-					</tr>					
-				</tbody>
-			</table>
-			<table class="">
-				<tbody>
-					<tr>
-						<td class='first' rowspan ='2'></td>
-						<td class='first'>QUI - 16h</td>
-						<td class='first' rowspan='2'>SEX - 18h</td>
-						<td class='first'>SAB - 10h30</td>
-					</tr>
-					<tr>						
-						<td class='first'>SEX - 16h</td>
-						<td class='first'>DOM - 10h30 e 21h</td>
-					</tr>
-					<tr>
-						<td class='first'>Preços Especiais</td>
-						<td>R$ 35,00 Consumação (sem cobrança de Couvert Art)</td>
-						<td>R$ 40,00 Consumação (sem cobrança de Couvert Art)</td>
-						<td>R$ 55,00 (R$ 10 Couvert Art + R$ 45,00 consumação)</td>
-					</tr>
-				</tbody>
-			</table>
-		</div> -->
-
-		<div class="local sp">
+		<div class="local sp active">
 			<h1>HORÁRIOS E VALORES - SP</h1>
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
 
@@ -266,12 +152,6 @@
 		</p>
 		
 		<div class="wrapper-card">
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendas ?>')" class="Btn" href="<? echo $siteVendas ?>">
-					<h2>Rio de Janeiro</h2>
-				</a>
-			</div>
-
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
 					<h2>São Paulo</h2>
