@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<!-- locaweb -->
 	<?php
 	include 'assets/config.php';
 	$tituloPagina = '' . $empresa;
