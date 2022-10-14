@@ -10,11 +10,11 @@
 	$imagemCompartilhamento = $images . 'compartilhamento.jpg';
 	$sessao = 'home';
 	?>
-	<title><? echo $tituloPagina ?></title>
+	<title><?php echo $tituloPagina ?></title>
 	<?php include 'assets/head.php'; ?>
-	<meta property="og:title" content="<? echo $tituloPagina ?>" />
-	<meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
-	<meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
+	<meta property="og:title" content="<?php echo $tituloPagina ?>" />
+	<meta name="description" content="<?php echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
+	<meta property="og:description" content="<?php echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
 </head>
 <body class="Home">
 	<!-- GTAG RAI -->
@@ -37,7 +37,7 @@
 	</header>
 
 	<section id="principal">
-		<img class="bg" src="<? echo $images ?>bg.jpg">
+		<img class="bg" src="<?php echo $images ?>bg.jpg">
 		<article>
 			<h1><strong>PLANETA ANIMAL EXPERIENCE</strong></h1>
 		</article>
@@ -58,7 +58,7 @@
 			<br><br>
 			Crianças são pagantes a partir dos 24 meses.
 		</p>
-		<video id='videolol' src="<? echo $images ?>PLANETA 16x9 RJ 30.mp4" preload="auto" type="video/mp4" controls></video>
+		<video id='videolol' src="<?php echo $images ?>PLANETA 16x9 RJ 30.mp4" preload="auto" type="video/mp4" controls></video>
 	</section>
 
 	<section id="icones">
@@ -71,13 +71,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>SHOPPING IBIRAPUERA</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -154,7 +154,7 @@
 		
 		<div class="wrapper-card">
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasSP ?>')" class="Btn" href="<?php echo $siteVendasSP ?>">
 					<h2>São Paulo</h2>
 				</a>
 			</div>
@@ -164,7 +164,7 @@
 			<?php include 'assets/social.php'; ?>
 		</div>
 
-		<img class="logofooter" src="<? echo $images ?>logo.png">
+		<img class="logofooter" src="<?php echo $images ?>logo.png">
 	</section>
 	<?php include 'assets/footer.php'; ?>
 	<a href="https://api.whatsapp.com/send?phone=556195670325&text=Oi,%20vim%20através%20do%20website%20Planeta%20Animal" target="_blank" id="Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>

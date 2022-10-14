@@ -30,7 +30,7 @@
 <meta property="fb:app_id" content="" />
 <meta name="twitter:card" content="summary">
 <meta name="format-detection" content="telephone=yes" />
-<link href="<?php echo $images ?>favicon_new.png" rel="icon" type="image/x-icon" />
+<!-- <link href="<?php echo $images ?>favicon_new.png" rel="icon" type="image/x-icon" /> -->
 <!-- <link rel="apple-touch-icon" href="<?php echo $images ?>touch-icon-iphone.png" />
 <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $images ?>touch-icon-ipad.png" />
 <link rel="apple-touch-icon" sizes="120x120" href="<?php echo $images ?>touch-icon-iphone-retina.png" />
