@@ -64,10 +64,10 @@
 	<section id="icones">
 		<h1 class="">PLANETA ANIMAL EXPERIENCE</h1>
 		<div class="menu-locais-links">
-			<a class="active" local="sp">SÃO PAULO</a>
+			<!-- <a class="active" local="sp">SÃO PAULO</a> -->
 		</div>
 
-		<div class="local sp active">
+		<!-- <div class="local sp active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
@@ -82,11 +82,11 @@
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</section>
 
 	<section id="valores">
-		<div class="local sp active">
+		<!-- <div class="local sp active">
 			<h1>HORÁRIOS E VALORES - SP</h1>
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
 
@@ -142,7 +142,7 @@
 					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
 				</tr>
 			</table>
-		</div>
+		</div> -->
 	</section>
 
 	<section id="ingressos">
@@ -153,11 +153,11 @@
 		</p>
 		
 		<div class="wrapper-card">
-			<div class="card">
+			<!-- <div class="card">
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasSP ?>')" class="Btn" href="<?php echo $siteVendasSP ?>">
 					<h2>São Paulo</h2>
 				</a>
-			</div>
+			</div> -->
 		</div>
 
 		<div class="box-social">

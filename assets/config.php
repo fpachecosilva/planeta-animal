@@ -2,8 +2,8 @@
 <?php
 	$empresa = 'PLANETA ANIMAL';
 	$CNPJ = '00.000.000/0001-00';
-	// $url = 'http://localhost/planeta-animal/';
-	$url = 'http://planetaanimalexperience.com.br/';
+	$url = 'http://localhost/planeta-animal/';
+	// $url = 'https://planetaanimalexperience.com.br/';
 	$images = $url.'assets/images/';
 	$Tags = '';
 	
